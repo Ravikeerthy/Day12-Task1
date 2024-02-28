@@ -1,0 +1,99 @@
+#header-box{
+    display: flex;
+    flex-direction: row;
+    /* gap: 550px; */
+    /* justify-content:space-evenly; */
+    flex-wrap: wrap;
+    background-color: rgb(15, 51, 60);
+    margin: 50px;
+    height: 100px;
+    position: relative;
+   
+    color: white;
+}
+
+
+i{
+    font-size: 40px;
+    /* margin-top: 30px; */
+    /* margin-left: 15px; */
+    align-items: right; 
+    position: absolute;
+    left: 50px;
+    bottom: 2px;
+    top: 2px;
+    
+   
+}
+
+h2{
+    position: absolute;
+    left: 10px;
+    /* bottom: 5px; */
+    
+}
+body{
+    background-color: rgb(202, 218, 202);
+}
+.horizontal{
+    height: 500px;
+    width: 30%;
+    border: 2px solid rgb(90, 104, 113) ;
+    background-color: rgb(90, 104, 113);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-left: 50px ;
+    margin-right: 50px;
+   
+
+}
+.boxes1, .boxes2, .boxes3{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 200px;
+    margin-left: 90px;
+    background-color: rgb(90, 104, 113);
+}
+.boxes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 200px;
+    margin-top: 50px;
+    gap: 20px;
+}
+.main-box{
+    display: flex;
+    flex-direction: row;
+    /* margin-top: 50px; */
+    gap: 100px;
+    flex-wrap: wrap;
+}
+.side-panel{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-top: 60px;
+
+
+}
+input{
+    /* width: 90%; */
+    height: 50px;
+    border-radius: 15px;
+    background-color: rgb(90, 104, 113);
+}
+textarea{
+    margin-top: 20px;
+    border-radius: 25px;
+    background-color: rgb(90, 104, 113);
+}
